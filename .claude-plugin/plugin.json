@@ -1,0 +1,11 @@
+{
+  "name": "eds-content-ops",
+  "description": "Content operations skills for AEM Edge Delivery Services: page auditing, GEO optimization, accessibility remediation, bulk metadata management, and content diffing. The first third-party content-ops skills for the EDS ecosystem.",
+  "version": "1.0.0",
+  "author": {
+    "name": "FocusGTS"
+  },
+  "repository": "https://github.com/focusgts/eds-content-ops-skills",
+  "license": "Apache-2.0",
+  "keywords": ["aem", "edge-delivery-services", "adobe", "content-ops", "seo", "geo", "accessibility", "wcag", "metadata", "audit"]
+}

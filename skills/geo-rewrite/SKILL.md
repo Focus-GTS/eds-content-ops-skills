@@ -63,7 +63,9 @@ Update each item as you complete it.
 
 ## Step 1: Fetch and Analyze Current Page
 
-Fetch the target URL provided by the user. Also fetch the `.plain.html` version of the same URL (append `.plain.html` to the path before the query string). The `.plain.html` rendition shows the clean semantic HTML that EDS produces — this is what AI crawlers actually see.
+Fetch the target URL provided by the user. Also fetch the `.plain.html` version of the same URL — for non-root paths, append `.plain.html` to the path before the query string (e.g., `/about` becomes `/about.plain.html`). For root paths (`/`), use `/index.plain.html`. The `.plain.html` rendition shows the clean semantic HTML that EDS produces — this is what AI crawlers actually see.
+
+**Note:** Some tools convert fetched HTML to markdown, which loses HTML attributes (alt text, loading, class names). When auditing image alt text or other attributes, use `curl` or a tool that preserves raw HTML.
 
 Analyze the following:
 
@@ -86,6 +88,10 @@ Analyze the following:
 - Identify internal links. Are they contextual (within body text) or isolated (footer/nav only)?
 - Flag orphan sections — topics mentioned but not linked to deeper content.
 
+**Image alt text**
+- Check all images for alt text. Empty or missing alt text is both an accessibility issue and a GEO issue — AI crawlers use alt text to understand page context.
+- Flag images with filename-style alt text (e.g., "IMG_2034.jpg") or single generic words ("image", "photo").
+
 **Current metadata**
 - Extract title tag, meta description, og:title, og:description, and any structured data.
 - Note if metadata is missing, truncated, or misaligned with the page content.
@@ -101,7 +107,7 @@ If the user provides target queries, use those. If the user says to infer them, 
 - **Long-tail variations** — Specific, lower-volume queries that indicate high intent (e.g., "how to migrate from AEM Sites to Edge Delivery Services").
 - **AI search phrasing** — How someone would phrase this query when talking to an AI assistant. AI queries tend to be conversational, longer, and more specific than typed search queries (e.g., "Explain how Adobe EDS works and whether it supports Google Docs authoring").
 
-Present the identified queries to the user for confirmation before proceeding.
+Present the identified queries to the user for confirmation before proceeding. If the user has already specified queries or asked you to infer them autonomously, skip the confirmation and proceed.
 
 ## Step 3: Analyze AI Readability
 
@@ -181,7 +187,10 @@ Use lists, tables, and definition patterns that AI engines can extract and quote
 ### 6. Maintain brand voice
 The rewrite should sound like the brand, not like a textbook or a Wikipedia article. Preserve the organization's terminology, tone, and personality. If the original is conversational, keep it conversational. If it is formal, keep it formal.
 
-### 7. Preserve EDS constraints
+### 7. Strengthen internal linking
+Where the content mentions topics covered by other pages on the site, add or improve internal links. Contextual links within body text (not just nav/footer links) help both traditional crawlers and AI engines understand site structure and topic relationships. Link text should be descriptive — use the topic phrase, not "click here" or "learn more."
+
+### 8. Preserve EDS constraints
 All content must be authorable in Google Docs or Microsoft Word via da.live. This means:
 - No raw HTML in the document body.
 - No embedded code or scripts.

@@ -93,7 +93,7 @@ Compare the same page across two branches:
 For each version, fetch two representations:
 
 1. **Full HTML** — the complete rendered page at the URL. This contains the `<head>` with metadata, plus the full `<body>` with header, navigation, content, and footer.
-2. **Plain HTML** — append `.plain.html` to the page path (e.g., `/about.plain.html`). This returns only the authored content: headings, paragraphs, sections, blocks, images, and links — no site chrome.
+2. **Plain HTML** — for non-root paths, append `.plain.html` to the page path (e.g., `/about` becomes `/about.plain.html`). For root paths (`/`), use `/index.plain.html`. This returns only the authored content: headings, paragraphs, sections, blocks, images, and links — no site chrome.
 
 So you will fetch up to four URLs total:
 - Version A full HTML
@@ -103,11 +103,17 @@ So you will fetch up to four URLs total:
 
 If `.plain.html` returns a 404 for either version, fall back to comparing the full HTML and note this limitation.
 
+**Note:** EDS loads header and footer content via JavaScript, so those elements appear empty in the initial HTML. If you need to diff navigation or footer content, fetch `/nav.plain.html` and `/footer.plain.html` separately for each version. Some tools convert fetched HTML to markdown, losing attributes like `alt`, `loading`, and class names. When diffing attributes, use `curl` or a tool that preserves raw HTML.
+
 ---
 
 ## Step 3: Diff Metadata
 
-Compare the `<meta>` tags from the `<head>` of both full HTML versions. Check for changes in:
+Compare the `<meta>` tags from the `<head>` of both full HTML versions.
+
+**Important:** When comparing `.aem.page` vs `.aem.live`, EDS automatically swaps the domain in `canonical`, `og:url`, `og:image`, `og:image:secure_url`, and `twitter:image` tags to match each environment. These are not real content changes — filter them out. Only report metadata differences that reflect actual author edits (changed titles, descriptions, added/removed tags, etc.). Similarly, CSP nonces and other per-request headers will differ between fetches and should be ignored.
+
+Check for changes in:
 
 - `<title>` — the page title
 - `<meta name="description">` — the page description

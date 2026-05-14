@@ -90,6 +90,14 @@ There may also be custom properties defined in the site's `helix-query.yaml` con
 
 If the index returns exactly the `limit` number of results, warn the user that there may be more pages. Suggest increasing the limit or paginating with the `offset` parameter.
 
+### Fallback: No Query Index
+
+If the query index returns a 404 (no `helix-query.yaml` configured), use this fallback chain:
+
+1. **Try the sitemap:** Fetch `https://<branch>--<repo>--<owner>.aem.live/sitemap.xml`. Parse `<url><loc>` entries to build a page list.
+2. **If no sitemap:** Ask the user for a list of page URLs, or ask them to provide the top-level sections of the site so you can discover pages by fetching section index pages.
+3. **Validate discovered URLs:** For every URL discovered (from query index, sitemap, or manual list), verify it returns HTTP 200 before auditing. Pages that return 404 or redirect should be flagged as stale entries, not audited as if they have missing metadata.
+
 ---
 
 ## Step 2: Audit Metadata Completeness
@@ -110,6 +118,10 @@ For each page returned by the query index, check:
 ### Image (og:image)
 - **Present?** A missing image means poor social sharing previews.
 - **Valid path?** The image path should start with `/` or be a full URL.
+
+### Robots
+- **Present?** Check if the page has a `robots` meta tag. Most published pages should not have `noindex` — flag any production page with `noindex` as a critical issue.
+- **Staging/draft pages indexed?** Pages under `/drafts/` or test paths should have `noindex` if they appear in the query index.
 
 ### Duplicates
 - Group pages with identical titles and flag them.

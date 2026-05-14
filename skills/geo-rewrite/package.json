@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-geo-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite EDS page content for AI search discoverability (GEO)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/geo-rewrite"
+  }
+}

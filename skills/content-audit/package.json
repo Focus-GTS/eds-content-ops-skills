@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-content-audit",
+  "version": "1.0.0",
+  "description": "Audit an EDS page for content quality, SEO, accessibility, performance, and EDS best practices",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/content-audit"
+  }
+}

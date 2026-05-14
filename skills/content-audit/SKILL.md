@@ -125,7 +125,7 @@ Check the page metadata (in EDS, this is a metadata table at the bottom of the s
 
 ## Step 4: EDS Performance Audit
 
-Check EDS-specific performance patterns. Refer to the `resources/eds-performance-rules.md` reference for detailed thresholds.
+Check EDS-specific performance patterns. Refer to the `references/eds-performance-rules.md` reference for detailed thresholds.
 
 ### LCP Budget
 - **First section must be lightweight.** The aggregate size of content before the LCP element (typically the first visible image or heading) should be under 100KB. Flag heavy first sections as P0.
@@ -202,7 +202,7 @@ Check EDS-specific performance patterns. Refer to the `resources/eds-performance
 
 ## Step 7: EDS Best Practices Audit (David's Model)
 
-Check against Adobe's content modeling rules. Refer to `resources/content-modeling-rules.md` for the full 15 rules.
+Check against Adobe's content modeling rules. Refer to `references/content-modeling-rules.md` for the full 15 rules.
 
 | Rule | What to Check | Priority if Violated |
 |------|---------------|---------------------|

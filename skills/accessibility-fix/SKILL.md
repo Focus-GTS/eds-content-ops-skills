@@ -51,7 +51,7 @@ EDS sites have specific accessibility patterns because content is authored in do
 
 Fixes must always specify WHERE the change is made: document, block code, or site config.
 
-Refer to `resources/wcag-quick-reference.md` for EDS-specific guidance on each WCAG criterion.
+Refer to `references/wcag-quick-reference.md` for EDS-specific guidance on each WCAG criterion.
 
 ---
 

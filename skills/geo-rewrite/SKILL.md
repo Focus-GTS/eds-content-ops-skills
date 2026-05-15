@@ -268,6 +268,16 @@ A standalone table formatted for direct paste into the EDS Metadata block:
 
 ---
 
+## Troubleshooting
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| AI search engines still don't cite the page after optimization | Content lacks unique factual density or quotable statements | Add more specific data points, original statistics, or expert-level detail that AI models can extract as authoritative claims |
+| Rewrites feel robotic or generic | Over-optimization stripped the brand voice | Re-read the original and restore distinctive phrasing; GEO adapts structure, not personality |
+| Content authors can't paste rewrites into Google Docs cleanly | Rewrite includes HTML, complex markdown, or formatting not supported in doc-based authoring | Simplify to plain text with headings, bold, and bullet lists — the only formatting EDS document authoring supports |
+| Page performance degrades after adding structured data | JSON-LD snippet is malformed or duplicated | Validate structured data with Google's Rich Results Test; ensure only one JSON-LD block per schema type |
+| Rewrites inflate word count without improving quality | Padding added to meet a perceived length target | Remove filler; focus on information density per paragraph rather than total word count |
+
 ## Key Principles
 
 - **GEO is not keyword stuffing.** It is making content genuinely more useful, specific, and quotable. If a rewrite reads worse than the original, it has failed.

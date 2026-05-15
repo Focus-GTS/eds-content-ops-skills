@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-publish-readiness",
+  "version": "0.0.0-semantically-released",
+  "description": "Pre-publish gate combining content quality, accessibility, and change review into a go/no-go checklist for EDS pages",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/publish-readiness"
+  }
+}

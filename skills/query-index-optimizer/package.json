@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-query-index-optimizer",
+  "version": "0.0.0-semantically-released",
+  "description": "Audit and optimize the EDS query index configuration and helix-query.yaml",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/query-index-optimizer"
+  }
+}

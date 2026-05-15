@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-go-live-checklist",
+  "version": "0.0.0-semantically-released",
+  "description": "Full site launch readiness check for EDS covering DNS, SEO, performance, analytics, and migration",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/go-live-checklist"
+  }
+}

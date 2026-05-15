@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-brand-voice-check",
+  "version": "0.0.0-semantically-released",
+  "description": "Check EDS page content against a brand style guide",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/brand-voice-check"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-redirect-manager",
+  "version": "0.0.0-semantically-released",
+  "description": "Audit the EDS redirects spreadsheet for chains, loops, broken destinations, and SEO issues",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/redirect-manager"
+  }
+}

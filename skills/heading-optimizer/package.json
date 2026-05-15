@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-heading-optimizer",
+  "version": "0.0.0-semantically-released",
+  "description": "Audit and optimize headings across EDS pages for search intent, hierarchy, and consistency",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/heading-optimizer"
+  }
+}

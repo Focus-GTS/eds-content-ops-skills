@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-internal-linking",
+  "version": "0.0.0-semantically-released",
+  "description": "Analyze and improve internal link structure across EDS sites using query index and link graph analysis",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/internal-linking"
+  }
+}

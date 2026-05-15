@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-link-rot-scanner",
+  "version": "0.0.0-semantically-released",
+  "description": "Crawl and validate all links across an EDS site",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/link-rot-scanner"
+  }
+}

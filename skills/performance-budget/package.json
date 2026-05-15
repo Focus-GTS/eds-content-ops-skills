@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-performance-budget",
+  "version": "0.0.0-semantically-released",
+  "description": "Deep analysis of the EDS 100KB LCP budget with resource-level optimization",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/performance-budget"
+  }
+}

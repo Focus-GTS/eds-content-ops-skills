@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-content-freshness",
+  "version": "0.0.0-semantically-released",
+  "description": "Flag stale or outdated content across an EDS site",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/content-freshness"
+  }
+}

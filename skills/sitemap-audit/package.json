@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-sitemap-audit",
+  "version": "0.0.0-semantically-released",
+  "description": "Validate an EDS sitemap.xml against actual site content and the query index",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/sitemap-audit"
+  }
+}

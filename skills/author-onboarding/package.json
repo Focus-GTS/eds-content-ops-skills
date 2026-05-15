@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-author-onboarding",
+  "version": "0.0.0-semantically-released",
+  "description": "Interactive training coach for new EDS content authors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/author-onboarding"
+  }
+}

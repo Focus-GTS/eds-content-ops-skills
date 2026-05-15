@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-image-seo",
+  "version": "0.0.0-semantically-released",
+  "description": "Audit images across EDS pages for alt text quality, performance attributes, file naming, and accessibility",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/image-seo"
+  }
+}

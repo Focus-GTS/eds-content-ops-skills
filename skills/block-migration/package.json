@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-block-migration",
+  "version": "1.0.0",
+  "description": "Port custom blocks between EDS projects with full dependency analysis and integration instructions",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/block-migration"
+  }
+}

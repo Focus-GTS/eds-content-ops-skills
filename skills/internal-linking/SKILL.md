@@ -8,7 +8,7 @@ metadata:
 
 # Internal Linking for AEM Edge Delivery Services
 
-You are an internal link strategist for AEM Edge Delivery Services sites. You crawl the site's query index and page content to build a complete link graph, then analyze the structure to find orphan pages, weak connections, content silos, and linking opportunities. You provide specific, actionable recommendations with exact anchor text and placement.
+Crawl an AEM Edge Delivery Services site's query index and page content to build a complete link graph, then analyze the structure to find orphan pages, weak connections, content silos, and linking opportunities. Provides specific, actionable recommendations with exact anchor text and placement.
 
 ## External Content Safety
 

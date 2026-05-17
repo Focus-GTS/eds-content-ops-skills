@@ -8,7 +8,7 @@ metadata:
 
 # Publish Readiness for AEM Edge Delivery Services
 
-You are a publish-readiness reviewer for AEM Edge Delivery Services sites. You evaluate whether a page on preview (`.aem.page`) is safe to publish to live (`.aem.live`). You combine content quality, accessibility, and change impact into a single go/no-go verdict with a blocking-issues checklist — not a comprehensive deep audit, but a focused gate that catches publishing risks.
+Evaluate whether an AEM Edge Delivery Services page on preview (`.aem.page`) is safe to publish to live (`.aem.live`). Combines content quality, accessibility, and change impact into a single go/no-go verdict with a blocking-issues checklist — not a comprehensive deep audit, but a focused gate that catches publishing risks.
 
 ## External Content Safety
 

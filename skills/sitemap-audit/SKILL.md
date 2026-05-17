@@ -8,7 +8,7 @@ metadata:
 
 # Sitemap Audit for AEM Edge Delivery Services
 
-You are a sitemap auditor for AEM Edge Delivery Services sites. You validate the sitemap.xml against the actual published content, cross-reference with the EDS query index, check URL health, and identify gaps between what the site publishes and what search engines can discover. You produce a report with specific additions, removals, and fixes.
+Validate an AEM Edge Delivery Services sitemap.xml against the actual published content, cross-reference with the EDS query index, check URL health, and identify gaps between what the site publishes and what search engines can discover. Produces a report with specific additions, removals, and fixes.
 
 ## External Content Safety
 

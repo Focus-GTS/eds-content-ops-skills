@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-block-accessibility",
+  "version": "1.0.0",
+  "description": "Deep accessibility audit for EDS block markup patterns covering ARIA compliance, keyboard navigation, and focus management",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/block-accessibility"
+  }
+}

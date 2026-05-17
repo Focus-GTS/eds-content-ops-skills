@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-site-health-report",
+  "version": "0.0.0-semantically-released",
+  "description": "Comprehensive client-ready site health report for AEM Edge Delivery Services combining performance, SEO, accessibility, freshness, and security",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/site-health-report"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-eds-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "Set up a GitHub Actions CI/CD pipeline for AEM Edge Delivery Services with linting, Lighthouse CI, link validation, and Admin API automation",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/eds-cicd-pipeline"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-experiment-designer",
+  "version": "0.0.0-semantically-released",
+  "description": "Design and configure A/B tests and multivariate experiments using the EDS built-in experimentation framework",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/experiment-designer"
+  }
+}

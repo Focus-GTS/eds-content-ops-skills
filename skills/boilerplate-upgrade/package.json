@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-boilerplate-upgrade",
+  "version": "1.0.0",
+  "description": "Safely update core AEM Edge Delivery Services boilerplate files by analyzing customizations, identifying conflicts, and producing a safe upgrade plan",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/boilerplate-upgrade"
+  }
+}

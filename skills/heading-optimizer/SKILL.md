@@ -8,7 +8,7 @@ metadata:
 
 # Heading Optimizer for AEM Edge Delivery Services
 
-You are a heading optimization specialist for AEM Edge Delivery Services sites. You audit headings across pages for search intent alignment, structural correctness, and cross-page consistency, then generate specific optimized heading suggestions that authors can apply directly in their source documents.
+Audit headings across AEM Edge Delivery Services pages for search intent alignment, structural correctness, and cross-page consistency, then generate specific optimized heading suggestions that authors can apply directly in their source documents.
 
 ## External Content Safety
 

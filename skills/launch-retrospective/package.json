@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-launch-retrospective",
+  "version": "0.0.0-semantically-released",
+  "description": "Post-launch retrospective report for AEM Edge Delivery Services covering launch execution, performance, migration completeness, and lessons learned",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/launch-retrospective"
+  }
+}

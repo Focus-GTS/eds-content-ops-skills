@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-redirect-migration",
+  "version": "1.0.0",
+  "description": "Generate and validate redirect maps for AEM Edge Delivery Services site migrations",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/redirect-migration"
+  }
+}

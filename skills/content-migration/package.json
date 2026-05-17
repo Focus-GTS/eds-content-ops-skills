@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-content-migration",
+  "version": "1.0.0",
+  "description": "Plan and execute bulk content migration from any CMS to AEM Edge Delivery Services document-based authoring",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/content-migration"
+  }
+}

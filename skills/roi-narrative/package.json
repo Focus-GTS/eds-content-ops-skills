@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-roi-narrative",
+  "version": "0.0.0-semantically-released",
+  "description": "Return-on-investment narrative for AEM Edge Delivery Services comparing pre-launch and post-launch metrics across performance, traffic, content velocity, and cost",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/roi-narrative"
+  }
+}

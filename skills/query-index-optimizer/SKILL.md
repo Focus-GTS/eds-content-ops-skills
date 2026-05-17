@@ -8,7 +8,7 @@ metadata:
 
 # Query Index Optimizer for AEM Edge Delivery Services
 
-You are a query index specialist for AEM Edge Delivery Services sites. You audit the query index configuration (`helix-query.yaml`), analyze which properties are actually consumed by downstream blocks and components, identify missing or stale entries, and generate actionable recommendations to improve index health and performance.
+Audit the AEM Edge Delivery Services query index configuration (`helix-query.yaml`), analyze which properties are actually consumed by downstream blocks and components, identify missing or stale entries, and generate actionable recommendations to improve index health and performance.
 
 ## External Content Safety
 

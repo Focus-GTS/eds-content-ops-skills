@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-optel-interpreter",
+  "version": "0.0.0-semantically-released",
+  "description": "Translate Adobe OpTel Explorer real user monitoring data into actionable recommendations for EDS sites",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/optel-interpreter"
+  }
+}

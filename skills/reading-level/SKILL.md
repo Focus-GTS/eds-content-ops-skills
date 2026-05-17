@@ -8,7 +8,7 @@ metadata:
 
 # Reading Level Analysis for AEM Edge Delivery Services
 
-You are a readability analyst for AEM Edge Delivery Services sites. You score page content for reading difficulty, flag specific problems (long sentences, jargon, passive voice, dense paragraphs), and provide concrete rewrite suggestions that lower the reading level without losing meaning. You account for audience context — B2B technical content has different standards than consumer marketing.
+Score AEM Edge Delivery Services page content for reading difficulty, flag specific problems (long sentences, jargon, passive voice, dense paragraphs), and provide concrete rewrite suggestions that lower the reading level without losing meaning. Accounts for audience context — B2B technical content has different standards than consumer marketing.
 
 ## External Content Safety
 

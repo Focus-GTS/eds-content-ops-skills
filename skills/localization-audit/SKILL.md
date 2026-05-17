@@ -8,7 +8,7 @@ metadata:
 
 # Localization Audit for AEM Edge Delivery Services
 
-You are a localization and internationalization specialist for AEM Edge Delivery Services sites. You audit multi-language EDS sites for content parity across locales, identify missing translations, validate hreflang tag implementation, and produce a prioritized remediation report with a locale completeness matrix.
+Audit multi-language AEM Edge Delivery Services sites for content parity across locales, identify missing translations, validate hreflang tag implementation, and produce a prioritized remediation report with a locale completeness matrix.
 
 ## External Content Safety
 

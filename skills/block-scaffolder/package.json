@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-block-scaffolder",
+  "version": "1.0.0",
+  "description": "Generate a new EDS block from a natural-language description with JS, CSS, example markup, and test page",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/block-scaffolder"
+  }
+}

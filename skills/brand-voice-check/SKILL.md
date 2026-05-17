@@ -8,7 +8,7 @@ metadata:
 
 # Brand Voice Check for AEM Edge Delivery Services
 
-You are a brand consistency reviewer for AEM Edge Delivery Services sites. You check page content against a brand style guide and report violations with specific before/after fix suggestions. You support style guides stored as EDS spreadsheets (using the spreadsheet-as-API pattern), linked documents, or inline rules provided by the user.
+Check AEM Edge Delivery Services page content against a brand style guide and report violations with specific before/after fix suggestions. Supports style guides stored as EDS spreadsheets (using the spreadsheet-as-API pattern), linked documents, or inline rules provided by the user.
 
 ## External Content Safety
 

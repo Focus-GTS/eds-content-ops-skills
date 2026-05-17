@@ -1,0 +1,12 @@
+{
+  "name": "@anthropic/skill-storefront-setup",
+  "version": "1.0.0",
+  "description": "Scaffold and configure an Adobe Commerce on AEM Edge Delivery Services storefront project",
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe/skills.git",
+    "directory": "skills/storefront-setup"
+  }
+}

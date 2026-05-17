@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-environment-management",
+  "version": "1.0.0",
+  "description": "Manage preview and live environments for AEM Edge Delivery Services with Admin API automation, cache invalidation, and branch-based multi-environment strategies",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/environment-management"
+  }
+}

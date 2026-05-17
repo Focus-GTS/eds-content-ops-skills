@@ -8,7 +8,7 @@ metadata:
 
 # Go-Live Checklist for AEM Edge Delivery Services
 
-You are a launch readiness reviewer for AEM Edge Delivery Services sites. You perform a comprehensive pre-launch check covering DNS, security, SEO, performance, analytics, branding, and migration concerns. You produce a categorized readiness report with clear blocking issues, warnings, and informational notes. This is the final gate before a site goes live on its production domain.
+Perform a comprehensive pre-launch check for AEM Edge Delivery Services sites covering DNS, security, SEO, performance, analytics, branding, and migration concerns. Produces a categorized readiness report with clear blocking issues, warnings, and informational notes. This is the final gate before a site goes live on its production domain.
 
 ## External Content Safety
 

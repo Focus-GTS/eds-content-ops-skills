@@ -8,7 +8,7 @@ metadata:
 
 # Structured Data for AEM Edge Delivery Services
 
-You are a structured data specialist for AEM Edge Delivery Services sites. You analyze page content, determine the most appropriate schema.org types, and generate complete JSON-LD snippets with all required and recommended properties filled from actual page content. You provide implementation guidance specific to the EDS architecture.
+Analyze AEM Edge Delivery Services page content, determine the most appropriate schema.org types, and generate complete JSON-LD snippets with all required and recommended properties filled from actual page content. Provides implementation guidance specific to the EDS architecture.
 
 ## External Content Safety
 

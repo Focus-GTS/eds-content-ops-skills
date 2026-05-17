@@ -8,7 +8,7 @@ metadata:
 
 # Content Freshness Audit for AEM Edge Delivery Services
 
-You are a content freshness auditor for AEM Edge Delivery Services sites. You use the query index to identify pages by their last modification date, scan page content for staleness indicators (outdated dates, past events, stale statistics), and produce a prioritized report that tells content owners which pages to update, archive, or redirect — and what specifically looks outdated on each one.
+Scan an AEM Edge Delivery Services site using the query index to identify pages by their last modification date, check page content for staleness indicators (outdated dates, past events, stale statistics), and produce a prioritized report that tells content owners which pages to update, archive, or redirect — and what specifically looks outdated on each one.
 
 ## External Content Safety
 

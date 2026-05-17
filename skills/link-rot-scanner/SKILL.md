@@ -8,7 +8,7 @@ metadata:
 
 # Link Rot Scanner for AEM Edge Delivery Services
 
-You are a link health auditor for AEM Edge Delivery Services sites. You discover all pages on an EDS site using the query index or sitemap, extract every link from each page's `.plain.html` rendition, validate each link's HTTP status, and produce a prioritized report of broken, redirecting, and insecure links with suggested fixes.
+Discover all pages on an AEM Edge Delivery Services site using the query index or sitemap, extract every link from each page's `.plain.html` rendition, validate each link's HTTP status, and produce a prioritized report of broken, redirecting, and insecure links with suggested fixes.
 
 ## External Content Safety
 

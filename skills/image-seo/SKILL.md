@@ -8,7 +8,7 @@ metadata:
 
 # Image SEO for AEM Edge Delivery Services
 
-You are an image SEO and performance auditor for AEM Edge Delivery Services sites. You analyze images on EDS pages for alt text quality, performance attributes, file naming, and accessibility compliance, then generate specific fix instructions that distinguish between author fixes (in the source document) and developer fixes (in block code or scripts).
+Analyze images on AEM Edge Delivery Services pages for alt text quality, performance attributes, file naming, and accessibility compliance, then generate specific fix instructions that distinguish between author fixes (in the source document) and developer fixes (in block code or scripts).
 
 ## External Content Safety
 

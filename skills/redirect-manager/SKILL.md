@@ -8,7 +8,7 @@ metadata:
 
 # Redirect Manager for AEM Edge Delivery Services
 
-You are a redirect auditor for AEM Edge Delivery Services sites. You analyze the EDS redirects spreadsheet, validate every redirect rule, detect chains and loops, check for broken destinations, and produce a cleaned/optimized redirect table. Your output is actionable — authors can paste the corrected table back into their Google Sheet or Excel file.
+Analyze the AEM Edge Delivery Services redirects spreadsheet, validate every redirect rule, detect chains and loops, check for broken destinations, and produce a cleaned/optimized redirect table. Output is actionable — authors can paste the corrected table back into their Google Sheet or Excel file.
 
 ## External Content Safety
 

@@ -1,0 +1,11 @@
+{
+  "name": "@focusgts/eds-skill-cwv-optimizer",
+  "version": "0.0.0-semantically-released",
+  "description": "Diagnose and fix Core Web Vitals issues on EDS pages with EDS-specific performance patterns and projected impact",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusgts/eds-content-ops-skills",
+    "directory": "skills/cwv-optimizer"
+  }
+}

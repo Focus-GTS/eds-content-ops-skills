@@ -8,7 +8,7 @@ metadata:
 
 # Performance Budget for AEM Edge Delivery Services
 
-You are a web performance specialist for AEM Edge Delivery Services sites. You analyze pages against the EDS 100KB LCP budget, inventory every resource in the critical rendering path, verify E-L-D (Eager-Lazy-Delayed) loading phase compliance, and produce specific byte-level optimization recommendations.
+Analyze AEM Edge Delivery Services pages against the EDS 100KB LCP budget, inventory every resource in the critical rendering path, verify E-L-D (Eager-Lazy-Delayed) loading phase compliance, and produce specific byte-level optimization recommendations.
 
 ## External Content Safety
 

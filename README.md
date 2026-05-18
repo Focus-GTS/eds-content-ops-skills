@@ -2,9 +2,30 @@
 
 Content operations skills for Adobe Edge Delivery Services (EDS / aem.live). Built for AI coding agents — Claude Code, Cursor, GitHub Copilot, and any agent that supports the [agentskills.io](https://agentskills.io) specification.
 
-**21 skills covering content quality, SEO, accessibility, performance, publishing, and site operations for the EDS ecosystem.**
+**42 skills across 9 categories — content ops, SEO, accessibility, blocks, migration, commerce, DevOps, analytics, and client deliverables.**
+
+---
+
+## Featured: EDS Skill Catalog
+
+> **Not sure which skills you need?** Start here.
+
+| Skill | What it does |
+|-------|-------------|
+| [eds-skill-catalog](skills/eds-skill-catalog/) | Scans your project, indexes all available Adobe EDS skills (official + community), and recommends which to activate. Auto-refreshes nightly from the adobe/skills repo. |
+
+Run it once at project setup and it tells you exactly which skills to install based on your project's maturity, block count, and current work patterns.
+
+---
 
 ## Skills
+
+### Project Health & Planning
+
+| Skill | What it does |
+|-------|-------------|
+| [eds-skill-catalog](skills/eds-skill-catalog/) | Index all Adobe EDS skills and recommend which to activate for your project. Auto-refreshes nightly. |
+| [eds-project-health](skills/eds-project-health/) | Comprehensive codebase audit — boilerplate currency, CSS scoping, block structure, performance patterns, configuration. |
 
 ### Content Quality & Auditing
 
@@ -33,6 +54,7 @@ Content operations skills for Adobe Edge Delivery Services (EDS / aem.live). Bui
 |-------|-------------|
 | [accessibility-fix](skills/accessibility-fix/) | Scan for WCAG 2.1 AA violations and generate fixes at the source document level. |
 | [performance-budget](skills/performance-budget/) | Deep analysis of the EDS 100KB LCP budget — inventories critical-path resources and E-L-D phases. |
+| [cwv-optimizer](skills/cwv-optimizer/) | Diagnose and fix Core Web Vitals issues (LCP, CLS, INP) specific to EDS architecture. |
 
 ### Publishing & Launch
 
@@ -51,6 +73,54 @@ Content operations skills for Adobe Edge Delivery Services (EDS / aem.live). Bui
 | [localization-audit](skills/localization-audit/) | Audit multi-language EDS sites for content parity, missing translations, and hreflang issues. |
 | [link-rot-scanner](skills/link-rot-scanner/) | Crawl and validate all internal and external links across an EDS site. |
 | [author-onboarding](skills/author-onboarding/) | Interactive training coach for new EDS content authors — walks through document-based authoring fundamentals. |
+
+### Block Development
+
+| Skill | What it does |
+|-------|-------------|
+| [block-scaffolder](skills/block-scaffolder/) | Generate boilerplate files for new EDS blocks following best practices. |
+| [block-testing](skills/block-testing/) | Generate test suites for EDS blocks covering variants, responsiveness, accessibility. |
+| [block-migration](skills/block-migration/) | Migrate blocks between EDS projects with dependency resolution. |
+| [block-accessibility](skills/block-accessibility/) | Audit blocks for keyboard navigation, ARIA, screen reader, and focus management. |
+
+### Migration
+
+| Skill | What it does |
+|-------|-------------|
+| [aem-to-eds-migration](skills/aem-to-eds-migration/) | Plan and execute migration from traditional AEM Sites to Edge Delivery Services. |
+| [content-migration](skills/content-migration/) | Bulk migrate content pages between EDS projects or from external sources. |
+| [redirect-migration](skills/redirect-migration/) | Generate redirect maps for domain/path migrations preserving SEO equity. |
+
+### Commerce
+
+| Skill | What it does |
+|-------|-------------|
+| [storefront-setup](skills/storefront-setup/) | Configure EDS Commerce (Dropin) storefront with catalog integration. |
+| [product-page-seo](skills/product-page-seo/) | Optimize product pages for search with structured data, schema, and content patterns. |
+| [catalog-audit](skills/catalog-audit/) | Audit product catalog pages for completeness, consistency, and SEO readiness. |
+
+### DevOps
+
+| Skill | What it does |
+|-------|-------------|
+| [eds-cicd-pipeline](skills/eds-cicd-pipeline/) | Set up CI/CD pipelines (GitHub Actions) for EDS projects with Lighthouse, linting, PSI. |
+| [environment-management](skills/environment-management/) | Manage EDS environment configurations across dev, stage, and production. |
+| [boilerplate-upgrade](skills/boilerplate-upgrade/) | Analyze and apply upstream boilerplate updates safely without breaking customizations. |
+
+### Analytics & Experimentation
+
+| Skill | What it does |
+|-------|-------------|
+| [optel-interpreter](skills/optel-interpreter/) | Analyze Operational Telemetry (OpTel) data to identify performance and engagement patterns. |
+| [experiment-designer](skills/experiment-designer/) | Design A/B and multivariate experiments using EDS built-in experimentation framework. |
+
+### Client Deliverables
+
+| Skill | What it does |
+|-------|-------------|
+| [site-health-report](skills/site-health-report/) | Generate client-facing site health reports with scores, trends, and recommendations. |
+| [roi-narrative](skills/roi-narrative/) | Build ROI narratives from EDS performance data for stakeholder presentations. |
+| [launch-retrospective](skills/launch-retrospective/) | Generate post-launch retrospective reports covering performance, issues, and wins. |
 
 ## Install
 
@@ -81,6 +151,8 @@ Clone this repo into your project's `.claude/skills/` or `~/.claude/skills/` dir
 
 Once installed, skills activate automatically when you describe a matching task:
 
+- "Which skills should I use for this project?" → eds-skill-catalog
+- "Audit this EDS project's codebase" → eds-project-health
 - "Audit this EDS page for quality issues" → content-audit
 - "Optimize this page for AI search" → geo-rewrite
 - "Fix the accessibility issues on this page" → accessibility-fix
@@ -89,8 +161,12 @@ Once installed, skills activate automatically when you describe a matching task:
 - "Is this page ready to publish?" → publish-readiness
 - "Check the site before launch" → go-live-checklist
 - "Find broken links on the site" → link-rot-scanner
-- "Generate structured data for this page" → structured-data
-- "Onboard a new content author" → author-onboarding
+- "Scaffold a new EDS block" → block-scaffolder
+- "Migrate this site from AEM to EDS" → aem-to-eds-migration
+- "Set up a commerce storefront" → storefront-setup
+- "Set up CI/CD for this EDS project" → eds-cicd-pipeline
+- "Analyze the OpTel data" → optel-interpreter
+- "Generate a site health report for the client" → site-health-report
 
 Or invoke directly: "Use the content-audit skill on https://main--mysite--myorg.aem.live/"
 

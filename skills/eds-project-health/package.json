@@ -1,0 +1,12 @@
+{
+  "name": "@focusgts/eds-skill-eds-project-health",
+  "version": "0.0.0-semantically-released",
+  "description": "Audit an AEM Edge Delivery Services project codebase for best practices, boilerplate currency, CSS scoping issues, block structure, performance patterns, and configuration health.",
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Focus-GTS/eds-content-ops-skills.git",
+    "directory": "skills/eds-project-health"
+  }
+}

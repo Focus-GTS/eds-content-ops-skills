@@ -1,0 +1,41 @@
+name: Refresh EDS Skill Catalog
+
+on:
+  schedule:
+    # Every night at midnight UTC
+    - cron: '0 0 * * *'
+  push:
+    # Refresh when skills are added or changed
+    paths:
+      - 'skills/*/SKILL.md'
+  workflow_dispatch:
+    # Manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run refresh script
+        run: |
+          chmod +x scripts/refresh-skill-catalog.sh
+          ./scripts/refresh-skill-catalog.sh
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet skills/eds-skill-catalog/references/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skills/eds-skill-catalog/references/adobe-eds-skill-index.md
+          git commit -m "chore: refresh EDS skill catalog index ($(date +%Y-%m-%d))"
+          git push

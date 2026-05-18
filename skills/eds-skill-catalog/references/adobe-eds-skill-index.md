@@ -1,6 +1,6 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-05-17
+> **last_updated:** 2026-05-18
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
 > **total_skills:** 20 core EDS + 6 project management + 42 community content ops
 
@@ -20,7 +20,7 @@ Official Adobe skills from `plugins/aem/edge-delivery-services/skills/`.
 | **code-review** | Review code for AEM Edge Delivery Services projects. Use at the end of development (before PR) for self-review, or to re |
 | **content-driven-development** | Apply a Content Driven Development process to AEM Edge Delivery Services development. Use for ALL code changes - new blo |
 | **content-modeling** | Create effective content models for your blocks that are easy for authors to work with. Use this skill anytime you are b |
-| **create-site** | Creates a new AEM Edge Delivery site from scratch — GitHub repo from the boilerplate, aem-code-sync installation, initia |
+| **create-site** | Creates a new AEM Edge Delivery site from scratch — GitHub repo from the boilerplate, aem-code-sync installation, init |
 | **da-auth** | Obtains a valid Adobe IMS access token for the DA (Document Authoring) API. Use this skill as a prerequisite step whenev |
 | **docs-search** | Searches the aem.live documentation for information on AEM Edge Delivery Services features. Use this skill when you need |
 | **find-test-content** | Search for existing content pages containing a specific block in AEM Edge Delivery Services. Reports URLs with occurrenc |
@@ -77,7 +77,7 @@ Located in `plugins/aem/edge-delivery-services-content-ops/skills/` (pending mer
 | **eds-skill-catalog** | Index all available Adobe EDS skills and recommend which to activate for a given project. Analyzes project structure, te |
 | **environment-management** | Manage preview and live environments for AEM Edge Delivery Services projects. Automates the preview/publish workflow, ca |
 | **experiment-designer** | Set up and configure A/B tests and multivariate experiments using the built-in AEM Edge Delivery Services experimentatio |
-| **geo-rewrite** | Rewrite AEM Edge Delivery Services page content for AI search discoverability (GEO — Generative Engine Optimization). An |
+| **geo-rewrite** | Rewrite AEM Edge Delivery Services page content for AI search discoverability (GEO — Generative Engine Optimization).  |
 | **go-live-checklist** | Full site launch readiness check for AEM Edge Delivery Services. Verifies DNS, HTTPS, robots.txt, metadata, performance, |
 | **heading-optimizer** | Audit and optimize headings across AEM Edge Delivery Services pages for search intent, hierarchy, and consistency. Extra |
 | **image-seo** | Audit images across AEM Edge Delivery Services pages for SEO and performance. Checks alt text quality, missing dimension |

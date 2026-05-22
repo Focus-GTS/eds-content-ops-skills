@@ -1,8 +1,8 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-05-21
+> **last_updated:** 2026-05-22
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
-> **total_skills:** 20 core EDS + 6 project management + 42 community content ops
+> **total_skills:** 21 core EDS + 6 project management + 42 community content ops
 
 ---
 
@@ -30,6 +30,7 @@ Official Adobe skills from `plugins/aem/edge-delivery-services/skills/`.
 | **page-import** | Import a single webpage from any URL to structured HTML content for authoring in AEM Edge Delivery Services. Scrapes the |
 | **preview-import** | Preview and verify imported content in local AEM Edge Delivery Services dev server. Validates rendering, compares with o |
 | **scrape-webpage** | Scrape webpage content, extract metadata, download images, and prepare for import/migration to AEM Edge Delivery Service |
+| **slicc-handoff** | Hand off the current task to the SLICC browser agent, or install a new skill into SLICC from a GitHub repo. Use this ski |
 | **testing-blocks** | Guide for testing code changes in AEM Edge Delivery projects including blocks, scripts, and styles. Use this skill after |
 | **ue-component-model** | Create or edit the Universal Editor component configuration (component-definition.json, component-models.json, component |
 

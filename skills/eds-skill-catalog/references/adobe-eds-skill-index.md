@@ -1,8 +1,8 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-05-29
+> **last_updated:** 2026-05-30
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
-> **total_skills:** 21 core EDS + 6 project management + 42 community content ops
+> **total_skills:** 24 core EDS + 7 project management + 42 community content ops
 
 ---
 
@@ -12,6 +12,7 @@ Official Adobe skills from `plugins/aem/edge-delivery-services/skills/`.
 
 | Skill | Description |
 |-------|-------------|
+| **aem-cli** | Reference for the Adobe AEM CLI (@adobe/aem-cli, formerly the helix-cli npm package; commands `aem up`, `aem import`, `a |
 | **analyze-and-plan** | Analyzes development requirements and generates structured acceptance criteria for AEM Edge Delivery Services (EDS) task |
 | **authoring-analysis** | Analyze content sequences and determine authoring approach (default content vs blocks). Validates block selection and se |
 | **block-collection-and-party** | The Block Collection and Block Party are repositories for existing AEM blocks, build tools, code snippets, integration p |
@@ -22,15 +23,17 @@ Official Adobe skills from `plugins/aem/edge-delivery-services/skills/`.
 | **content-modeling** | Create effective content models for your blocks that are easy for authors to work with. Use this skill anytime you are b |
 | **create-site** | Creates a new AEM Edge Delivery site from scratch — GitHub repo from the boilerplate, aem-code-sync installation, init |
 | **da-auth** | Obtains a valid Adobe IMS access token for the DA (Document Authoring) API. Use this skill as a prerequisite step whenev |
+| **da-content** | Reference for producing Adobe Document Authoring (DA, da.live) and Edge Delivery Services (EDS, aka aem.live/Helix) comp |
 | **docs-search** | Searches the aem.live documentation for information on AEM Edge Delivery Services features. Use this skill when you need |
 | **find-test-content** | Search for existing content pages containing a specific block in AEM Edge Delivery Services. Reports URLs with occurrenc |
 | **generate-import-html** | Generate structured HTML from authoring analysis for AEM Edge Delivery Services. Creates section structure, applies bloc |
 | **identify-page-structure** | Identify section boundaries and content sequences within a scraped webpage for AEM Edge Delivery Services import. Perfor |
 | **page-decomposition** | Analyze content sequences within a section and provide neutral descriptions for AEM Edge Delivery Services. Invoked per  |
-| **page-import** | Import a single webpage from any URL to structured HTML content for authoring in AEM Edge Delivery Services. Scrapes the |
+| **page-import** | Import a single webpage from any URL into canonical EDS block format — structured HTML that authors edit in DA. Scrape |
 | **preview-import** | Preview and verify imported content in local AEM Edge Delivery Services dev server. Validates rendering, compares with o |
 | **scrape-webpage** | Scrape webpage content, extract metadata, download images, and prepare for import/migration to AEM Edge Delivery Service |
 | **slicc-handoff** | Hand off the current task to the SLICC browser agent, or install a new skill into SLICC from a GitHub repo. Use this ski |
+| **snowflake** | Static-to-EDS conversion that preserves the original design while making content authorable in Document Authoring. Two m |
 | **testing-blocks** | Guide for testing code changes in AEM Edge Delivery projects including blocks, scripts, and styles. Use this skill after |
 | **ue-component-model** | Create or edit the Universal Editor component configuration (component-definition.json, component-models.json, component |
 
@@ -43,10 +46,11 @@ From `plugins/aem/project-management/skills/`.
 | Skill | Description |
 |-------|-------------|
 | **admin** | Generate comprehensive admin documentation for AEM Edge Delivery Services project handover. Creates admin guide covering |
-| **auth** | Authenticate with AEM Edge Delivery Services Config Service API. Opens a browser window for Adobe ID login and captures  |
+| **auth** | Authenticate with AEM Edge Delivery Services using Adobe IMS OAuth. Opens browser for Adobe ID login and captures token. |
 | **authoring** | Generate comprehensive documentation for content authors taking over an AEM Edge Delivery Services project. Analyzes the |
 | **development** | Generate comprehensive technical documentation for developers taking over an AEM Edge Delivery Services project. Analyze |
 | **handover** | Generate project handover documentation for AEM Edge Delivery Services projects. Creates comprehensive guides for conten |
+| **ops** | Execute AEM Edge Delivery Services admin operations - list admins, add/remove users, preview, publish, unpublish content |
 | **whitepaper** | Creates professional PDF whitepapers from Markdown files. Use when the user wants to create a whitepaper, technical docu |
 
 ---

@@ -1,6 +1,6 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-05-30
+> **last_updated:** 2026-05-31
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
 > **total_skills:** 24 core EDS + 7 project management + 42 community content ops
 

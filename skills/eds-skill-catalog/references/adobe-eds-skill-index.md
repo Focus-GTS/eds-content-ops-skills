@@ -1,6 +1,6 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-06-15
+> **last_updated:** 2026-06-16
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
 > **total_skills:** 24 core EDS + 7 project management + 42 community content ops
 
@@ -45,10 +45,10 @@ From `plugins/aem/project-management/skills/`.
 
 | Skill | Description |
 |-------|-------------|
-| **admin** | Generate comprehensive admin documentation for AEM Edge Delivery Services project handover. Creates admin guide covering |
-| **auth** | Authenticate with AEM Edge Delivery Services using Adobe IMS OAuth. Opens browser for Adobe ID login and captures token. |
-| **authoring** | Generate comprehensive documentation for content authors taking over an AEM Edge Delivery Services project. Analyzes the |
-| **development** | Generate comprehensive technical documentation for developers taking over an AEM Edge Delivery Services project. Analyze |
+| **auth** | Authenticate with AEM Edge Delivery Services. Opens browser for login and captures token. Works for admin.hlx.page and C |
+| **handover-admin** | Generate comprehensive admin documentation for AEM Edge Delivery Services project handover. Use when handing over admin  |
+| **handover-author** | Generate comprehensive documentation for content authors taking over an AEM Edge Delivery Services project. Use when onb |
+| **handover-developer** | Generate comprehensive technical documentation for developers taking over an AEM Edge Delivery Services project. Use whe |
 | **handover** | Generate project handover documentation for AEM Edge Delivery Services projects. Creates comprehensive guides for conten |
 | **ops** | Execute AEM Edge Delivery Services admin operations - list admins, add/remove users, preview, publish, unpublish content |
 | **whitepaper** | Creates professional PDF whitepapers from Markdown files. Use when the user wants to create a whitepaper, technical docu |

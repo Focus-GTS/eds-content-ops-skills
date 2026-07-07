@@ -1,6 +1,6 @@
 # Adobe EDS Skill Index
 
-> **last_updated:** 2026-07-06
+> **last_updated:** 2026-07-07
 > **source:** github.com/adobe/skills (auto-refreshed weekly)
 > **total_skills:** 24 core EDS + 7 project management + 42 community content ops
 
@@ -13,28 +13,28 @@ Official Adobe skills from `plugins/aem/edge-delivery-services/skills/`.
 | Skill | Description |
 |-------|-------------|
 | **aem-cli** | Reference for the Adobe AEM CLI (@adobe/aem-cli, formerly the helix-cli npm package; commands `aem up`, `aem import`, `a |
-| **analyze-and-plan** | Analyzes development requirements and generates structured acceptance criteria for AEM Edge Delivery Services (EDS) task |
-| **authoring-analysis** | Analyze content sequences and determine authoring approach (default content vs blocks). Validates block selection and se |
-| **block-collection-and-party** | The Block Collection and Block Party are repositories for existing AEM blocks, build tools, code snippets, integration p |
-| **block-inventory** | Survey available blocks from local AEM Edge Delivery Services project and Block Collection to understand the block palet |
-| **building-blocks** | Guide for implementing code changes in AEM Edge Delivery Services. Handles block development (new or modified), core fun |
-| **code-review** | Review code for AEM Edge Delivery Services projects. Use at the end of development (before PR) for self-review, or to re |
+| **analyze-and-plan** | Use this when you need to define acceptance criteria, write requirements, scope work, or create a definition of done for |
+| **authoring-analysis** | Use this when the page-import pipeline needs to determine the authoring approach (default content vs blocks) for scraped |
+| **block-collection-and-party** | Use this when you are starting AEM Edge Delivery Services (EDS, Franklin, Helix) development and want an existing refere |
+| **block-inventory** | Use this when the page-import pipeline needs to survey the block palette available from a local AEM Edge Delivery Servic |
+| **building-blocks** | Use this when implementing code changes in AEM Edge Delivery Services (EDS, Franklin, Helix), whether new or modified bl |
+| **code-review** | Use this when reviewing AEM Edge Delivery Services (EDS, Franklin, Helix) code, either self-review at the end of develop |
 | **content-driven-development** | Apply a Content Driven Development process to AEM Edge Delivery Services development. Use for ALL code changes - new blo |
-| **content-modeling** | Create effective content models for your blocks that are easy for authors to work with. Use this skill anytime you are b |
+| **content-modeling** | Use this when you are building new AEM Edge Delivery Services blocks or changing the initial structure that authors work |
 | **create-site** | Creates a new AEM Edge Delivery site from scratch — GitHub repo from the boilerplate, aem-code-sync installation, init |
-| **da-auth** | Obtains a valid Adobe IMS access token for the DA (Document Authoring) API. Use this skill as a prerequisite step whenev |
-| **da-content** | Reference for producing Adobe Document Authoring (DA, da.live) and Edge Delivery Services (EDS, aka aem.live/Helix) comp |
-| **docs-search** | Searches the aem.live documentation for information on AEM Edge Delivery Services features. Use this skill when you need |
-| **find-test-content** | Search for existing content pages containing a specific block in AEM Edge Delivery Services. Reports URLs with occurrenc |
-| **generate-import-html** | Generate structured HTML from authoring analysis for AEM Edge Delivery Services. Creates section structure, applies bloc |
-| **identify-page-structure** | Identify section boundaries and content sequences within a scraped webpage for AEM Edge Delivery Services import. Perfor |
-| **page-decomposition** | Analyze content sequences within a section and provide neutral descriptions for AEM Edge Delivery Services. Invoked per  |
+| **da-auth** | Use this when another step needs to call the admin.da.live API, for example before pushing HTML content, listing documen |
+| **da-content** | Use this when generating HTML for Adobe Document Authoring (DA, da.live) upload, uploading media binaries to DA, publish |
+| **docs-search** | Use this when you need more information about an AEM Edge Delivery Services (EDS, Franklin, Helix) feature or guidance o |
+| **find-test-content** | Use this when you need to find existing pages that already use a specific block in an AEM Edge Delivery Services project |
+| **generate-import-html** | Use this when the page-import pipeline needs to produce structured HTML from authoring analysis for AEM Edge Delivery Se |
+| **identify-page-structure** | Use this when the page-import pipeline needs to identify section boundaries and content sequences within a scraped webpa |
+| **page-decomposition** | Use this when the page-import pipeline needs to analyze the content sequences within a single section and describe them  |
 | **page-import** | Import a single webpage from any URL into canonical EDS block format — structured HTML that authors edit in DA. Scrape |
-| **preview-import** | Preview and verify imported content in local AEM Edge Delivery Services dev server. Validates rendering, compares with o |
-| **scrape-webpage** | Scrape webpage content, extract metadata, download images, and prepare for import/migration to AEM Edge Delivery Service |
-| **slicc-handoff** | Hand off the current task to the SLICC browser agent, or install a new skill into SLICC from a GitHub repo. Use this ski |
-| **snowflake** | Static-to-EDS conversion that preserves the original design while making content authorable in Document Authoring. Two m |
-| **testing-blocks** | Guide for testing code changes in AEM Edge Delivery projects including blocks, scripts, and styles. Use this skill after |
+| **preview-import** | Use this when you need to preview and verify content you imported into a local AEM Edge Delivery Services (EDS, Franklin |
+| **scrape-webpage** | Use this when the page-import pipeline needs to fetch a source webpage and prepare it for import/migration to AEM Edge D |
+| **slicc-handoff** | Use this when the user asks to continue work in the SLICC browser agent or to install a skill into SLICC, for example \" |
+| **snowflake** | Use this when converting an AI-generated static HTML page (Stardust, Mobirise, Relume, Lovable, v0, Figma-derived, etc.) |
+| **testing-blocks** | Use this when you have made AEM Edge Delivery Services code changes to blocks, scripts, or styles and need to validate t |
 | **ue-component-model** | Create or edit the Universal Editor component configuration (component-definition.json, component-models.json, component |
 
 ---
